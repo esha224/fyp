@@ -1,0 +1,57 @@
+/* BookCarPage.css */
+.book-car-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.book-car-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.banner-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.radio-buttons {
+  margin-top: 20px;
+}
+
+.automobiles-content,
+.cars-content {
+  margin-top: 20px;
+}
+
+.automobiles-row,
+.cars-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.automobile-block,
+.car-block {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.automobile-block img,
+.car-block img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.steering-wheel-container {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.steering-wheel {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.steering-wheel:hover {
+  transform: rotate(90deg);
+}
+
+.list-container {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform: translateY(-50%);
+  list-style: none;
+  background-color: none;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.list-container li {
+  font-weight: 900;
+  white-space: nowrap;
+  display: inline-block;
+  list-style-type: none;
+  color: red;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.list-container li:hover {
+  color: black;
+  background-color: gray;
+}

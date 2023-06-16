@@ -1,0 +1,71 @@
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form-box {
+  display: flex;
+  width: 600px;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form-left {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+}
+
+.steering-wheel-img {
+  display: block;
+  max-width: 100%;
+}
+
+.login-form-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.login-form-right h2 {
+  margin-bottom: 20px;
+  color: red;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #007bff;
+}

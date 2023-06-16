@@ -1,0 +1,48 @@
+/* Adjust the positioning and layout of the service container */
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Style the hero image */
+.hero-mid {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.hero-mid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the service details */
+.service-details {
+  margin-top: 20px;
+  max-width: 600px;
+  text-align: center;
+  color: white;
+}
+
+.service-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-details p {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.service-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.service-details a:hover {
+  text-decoration: underline;
+}

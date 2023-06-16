@@ -1,0 +1,39 @@
+.feedback-page {
+  padding: 0px;
+}
+
+.feedback-banner {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.feedback-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.feedback-form label {
+  margin-bottom: 10px;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.feedback-form button {
+  grid-column: span 2;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #0056b3;
+}
